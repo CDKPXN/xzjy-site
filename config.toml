@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.forusing.com"
+baseurl = "https://www.forusing.com/"
 languageCode = "zh-cn"
 title = "学致教育"
 theme = "hugo-freelancer-theme"
