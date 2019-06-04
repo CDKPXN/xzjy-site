@@ -1,0 +1,103 @@
+# Site settings
+baseurl = "https://www.forusing.com"
+languageCode = "zh-cn"
+title = "学致教育"
+theme = "hugo-freelancer-theme"
+
+
+[params]
+
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
+
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "Mr. Hugo"
+    description = "My awesome description"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email youself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    email = "wzjie@companiontek.com"
+
+    # Custom assets
+	custom_css = []
+	custom_js  = []
+
+    [params.navigation]
+        brand = "学致教育"
+
+
+    [params.header]
+        # Copy your own image into './static/img/'' if you wish
+        image = "profile1.png"
+        name = "嵌入式Linux培训"
+        subtitle = "从零基础到准高手的嵌入式速成班"
+
+
+    [params.portfolio]
+        # All projects defined in their own files. You can find example projects
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "培训内容"
+
+        # [params.portfolio.modal]
+        #     client = "Client"
+        #     date = "Date"
+        #     category = "Category"
+        #     buttontext = "Close"
+
+
+    [params.about]
+        title = "关于我们"
+        # The about text is splitted into a left and right column
+        left = ""
+        right = """我们的师资队伍由多名电子科技大学资深教师和具有十多年嵌入式开发经验的高级工程师组成。当过老师让我们知道“怎么教”，开过公司让我们知道“教什么”！我们教的不只是嵌入式开发的技术，更是触类旁通的能力；基础不重要，重要的是上进心，只要你敢来，我们就有信心把你教会（我们的口号跟学挖掘机是一样的：本期学不会，下期免费再说）"""
+
+        # [params.about.button]
+        #     text = "Download theme"
+        #     link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+        #     icon = "download"
+
+
+    [params.contact]
+        title = "联系我们"
+
+        # 'error' defines error messages for invalid inputs
+        [params.contact.form.phone]
+            text = "电话：028-68748775"
+            # error = "Please enter your name."
+
+        [params.contact.form.mobile]
+            text = "QQ：1558985623"
+            # error = "Please enter your email address."
+
+        [params.contact.form.mail]
+            text = "邮箱：training@forusing.com"
+            # error = "Please enter your phone number."
+        [params.contact.form.addr]
+            text = "地址：成都市高新西区天全路200号（电子科技大学清水河校区旁）"
+        # [params.contact.form.message]
+        #     text = "Message"
+        #     error = "Please enter a message."
+
+        # [params.contact.form.button]
+        #     text = "Send"
+
+
+    [params.footer]
+        copyright = "成都学致教育咨询有限公司    2019"
+
+        # [params.footer.location]
+        #     title = "地址"
+        #     # Postal address (add as many lines as necessary)
+        #     address = [""]
