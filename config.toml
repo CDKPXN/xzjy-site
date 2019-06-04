@@ -61,7 +61,7 @@ theme = "hugo-freelancer-theme"
         title = "关于我们"
         # The about text is splitted into a left and right column
         left = ""
-        right = """我们的师资队伍由多名电子科技大学资深教师和具有十多年嵌入式开发经验的高级工程师组成。当过老师让我们知道“怎么教”，开过公司让我们知道“教什么”！我们教的不只是嵌入式开发的技术，更是触类旁通的能力；基础不重要，重要的是上进心，只要你敢来，我们就有信心把你教会（我们的口号跟学挖掘机是一样的：本期学不会，下期免费再说）"""
+        right = """我们的师资队伍由多名电子科技大学资深教师和具有十多年嵌入式开发经验的高级工程师组成。做过教师的我们知道“怎么教”，开过公司的我们知道“教什么”！我们教的不仅仅是嵌入式开发的技术，更是触类旁通的智慧及能力；就算你没有基础不重要，重要的你有一颗上进心，只要你敢来，我们就敢把你教会！（我们的口号跟学挖掘机是一样的：本期学不会，下期免费再学！）"""
 
         # [params.about.button]
         #     text = "Download theme"
@@ -85,7 +85,7 @@ theme = "hugo-freelancer-theme"
             text = "邮箱：training@forusing.com"
             # error = "Please enter your phone number."
         [params.contact.form.addr]
-            text = "地址：成都市高新西区天全路200号（电子科技大学清水河校区旁）"
+            text = "地址：成都市高新西区天全路200号 国家专业化无线通信众创空间20楼（电子科技大学清水河校区旁）"
         # [params.contact.form.message]
         #     text = "Message"
         #     error = "Please enter a message."
