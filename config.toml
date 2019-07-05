@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "/"
 languageCode = "zh-cn"
-title = "学致教育"
+title = "英用教育"
 theme = "hugo-freelancer-theme"
 
 
@@ -95,7 +95,7 @@ theme = "hugo-freelancer-theme"
 
 
     [params.footer]
-        copyright = "成都学致教育咨询有限公司    2019"
+        copyright = "成都英用教育科技有限公司    2019"
 
         # [params.footer.location]
         #     title = "地址"
