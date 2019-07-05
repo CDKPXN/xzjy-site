@@ -33,7 +33,7 @@ theme = "hugo-freelancer-theme"
 	custom_js  = []
 
     [params.navigation]
-        brand = "学致教育"
+        brand = "英用教育"
 
 
     [params.header]
